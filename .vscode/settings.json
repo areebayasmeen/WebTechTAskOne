@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.root": "",
+    "livePreview.defaultPreviewPath": "/index.html"
+}

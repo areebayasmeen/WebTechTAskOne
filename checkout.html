@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+       <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <span class="logo"><img src="./pictures/image-2.png" alt="ni milaaaaaaaaaaa"></span>
+            <ul class="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./crud.html">API</a></li>
+                <li><a href="./cv.html">MY CV</a></li>
+                <li><a href="./checkout.html">BUYNOW</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="width: 22rem">
+            <div class="card-body">
+
+                <div class="dropdown d-flex justify-content-center align-items-center mb-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="background-color: yellow; color: black">
+                        Select License
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 290px">
+                        <li class="dropdown-item select-item" data-name="Regular License" data-price="39">
+                            <span class="fw-bold">Regular License — $39</span><br />
+                            <span class="small text-muted">Single end product. Users not charged.</span>
+                        </li>
+                        <li class="dropdown-item select-item" data-name="Extended License" data-price="2950">
+                            <span class="fw-bold">Extended License — $2950</span><br />
+                            <span class="small text-muted">End users can be charged.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="list-group list-group-flush mb-3">
+                    <li class="list-group-item border-0">✔ Quality checked</li>
+                    <li class="list-group-item border-0">✔ Future updates</li>
+                    <li class="list-group-item border-0">✔ 6 months support</li>
+                </ul>
+
+                <a class="btn btn-warning w-100" id="addToCartBtn" style="background-color: yellow" href="./form.html">
+                    Add to Cart 🛒
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span class="footer">LOREM</span><span class="footer">VESTIBULUM</span><span
+            class="footer">ALIQUAM ETAR</span><span class="footer">CURABITUR</span><span class="footer">INTEGER</span>
+    </div>
+    <div class="footer1">
+        <a href="https://muffingroup.com" target="_blank">Muffin group</a>
+        © 2025 Betheme by l
+        | All Rights Reserved | Powered by
+        <a href="https://wordpress.org" target="_blank">WordPress</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./auth.js"></script>
+    <script src="./form.js"></script>
+</body>
+
+</html>
